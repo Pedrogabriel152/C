@@ -1,0 +1,32 @@
+Program'
+
+desc[1] nota1, nota2, nota3, soma, media
+word nome
+
+view'Digite a nota 1 do .w:\n,nome'
+read'.d1,#nota1'
+
+view'Digite a nota 2 do .w:\n,nome'
+read'.d1,#nota1'
+
+view'Digite a nota 3 do .w:\n,nome'
+read".d1,#nota3"
+
+soma = nota1 + nota2 + nota3
+
+media = soma/3
+
+view'A media do aluno(a) .w foi: .d1\n,nome,media'
+
+forthat[media >= 6]"
+	
+	view'.w esta aprovado,nome'
+"ifnot"
+
+	view'.w foi reprovado por falta de nota,nome'
+"
+endProgram;
+'
+
+
+

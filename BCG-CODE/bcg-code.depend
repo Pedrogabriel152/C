@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656623030 source:c:\users\pedro\onedrive\Área de trabalho\faculdade\bcg-code\bcg-code\main.c
+	<stdio.h>
+	<stdlib.h>
+
